@@ -1,92 +1,135 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>Ivan CV</title>
-	<link rel="stylesheet"  href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave|Special+Elite" rel="stylesheet">	
+    <meta charset="UTF-8">
+    <title>Ivan CV</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave|Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="./css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-	<header class="fon">
-		<div class="info">
-			<img src="foto.png" width="250px" height="250px">
-			<p class="name">Иван Слипцов</p>
-			<p class="work">Front end Developer</p>
-			<div class="info_contact">
-			   <p>Ivan.slipcov@gmail.com</p>
-			   <a href="https://www.facebook.com/ivan.slipcov">Facebook</a>
-			   <a href="https://github.com/IvankoSL">GitHab</a>
-			</div>
-		</div>
-	</header>
-	<main>
-		<div class="fon2">
-			<div class="target_left"><h2>Цель</h2></div>
-			<div class="target_right">
-			<p>Получить опыт работы в команде. Развиваться в направлении верстки веб сайтов  
-               и Frontend разработки. Научиться применять правильные подходы в разработке и 
-               создавать технологически правильные и красивые страницы.</p></div>   
-		</div>
-		<div class="fon3">			
-			   <div class="characteristic_right">
-			     <h3 class="know">Прошёл курсы :</h3>
-			     <p>HTML Academy (HTML 5,CSS 3)</p>
-			     <p>Hexlet (Java Script)</p>
-			   </div>
-			   <div class="characteristic_left">
-			     <h3 class="scils">Навыки : </h3>
-			     <p>Изучаю HTML 5</p>
-			     <p>CSS 3</p>
-			     <p>Респонсивность и Адаптивность</p>
-			     <p>Java Script</p>
-			   </div>						
-		</div>
-		<div class="fon4">
-			<div class="i">
-				<ul>Личностные качества:
-                  <li>Хорошие коммуникативные навыки</li>
-                  <li>уверенный в себе и адекватно оцениваю свои способности</li>
-                  <li>имею позитивный настрой</li>
-                  <li>хороший опыт работы клиентами</li>
-                  <li>увлечен работой и новыми технологиями</li>
-                </ul>
-			</div>
-		</div>
-		<div class="fon5">
-			<div class="Experience">
-				<ul>Опыт работы:
-                  <ul>2013-2016 Лазеркрафт, работа оператором на ЧПУ лазеро-гравировальном станке
-                    <ul>SketchUp: 
-                    	<li>разработка и рисовка простых 3д моделей для расчёта конструктора или
-                        деталей для дальнейшей сборки
-                        </li>
+<section class="container mt-3">
+    <div class="row">
+        <header class="text-center header">
+            <div class="color fon">
+                <img class="img-fluid img-thumbnail img-circle" src="./foto.png" width="250" height="250">
+                <h1 class="name">
+                    Иван Слипцов
+                </h1>
+                <p class="work">Trainee Front end Developer</p>
+
+                <div class="info_contact">
+                    <a href="mialto:Ivan.slipcov@gmail.com">Ivan.slipcov@gmail.com</a>
+                    <div class="social">
+                      <a href="https://www.facebook.com/ivan.slipcov"><i class="fab fa-facebook"></i></a>
+                      <a href="https://github.com/IvankoSL"><i class="fab fa-github-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="col-xl-9 offset-xl-3 col-lg-8 offset-lg-4 col-md-7 offset-md-5 col-12" >
+            <div class="fon f2">
+                <h2>Цель</h2>
+                <p>Получить опыт работы в команде. Развиваться в направлении верстки веб сайтов
+                    и Frontend разработки. Научиться применять правильные подходы в разработке и
+                    создавать технологически правильные и красивые страницы.</p>
+            </div>
+
+            <div class="fon f3">
+                <div class="characteristic_left">
+                    <dl>
+                        <dt>
+                        <h2>Навыки :</h2></dt>
+                        <dd> HTML 5</dd>
+                        <dd>CSS 3</dd>
+                        <dd>Bootstrap4</dd>
+                        <dd>Java Script</dd>
+                    </dl>
+                </div>
+                <div class="characteristic_right">
+                    <dl>
+                        <dt>
+                        <h3>Прошёл курсы :</h3></dt>
+                        <dd>HTML Academy (HTML 5,CSS 3)</dd>
+                        <dd>Hexlet (Java Script)</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="fon f4">
+                <div class="Experience">
+                    <h2>Опыт работы:</h2>
+                    <dl>
+                        <dt>
+                        <h4><strong>2013-2016</strong> Лазеркрафт</h4>
+                        <p> работа оператором на ЧПУ лазеро-гравировальном станке</p>
+                        </dt>
+
+                        <dd>
+                            <h5>SketchUp:</h5>
+                            <p>разработка и рисовка простых 3д моделей для расчёта конструктора или деталей для
+                                дальнейшей
+                                сборки
+                            </p>
+                        </dd>
+
+                        <dd>
+                            <h5>Corel Draw:</h5>
+                            <p>перерисовка контура и исправлений макетов заказчика для дальнейшего
+                                запуска в производство</p>
+                        </dd>
+                        <dt>
+                        <h4><strong>2012-2013</strong> Аэропорт Киев</h4>
+                        <p>работа водителем механиком на спецтехнике, loud master</p>
+                        </dt>
+                        <dt>
+                        <h4><strong>2009-2012</strong> ТОВ Экостатус</h4>
+                        <p>работа системным администратором</p>
+                        </dt>
+                    </dl>
+                </div>
+            </div>
+            <div class="fon f5">
+                <div class="i">
+                    <h2>Личностные качества:</h2>
+                    <ul>
+                        <li>Хорошие коммуникативные навыки</li>
+                        <li>уверенный в себе и адекватно оцениваю свои способности</li>
+                        <li>имею позитивный настрой</li>
+                        <li>хороший опыт работы клиентами</li>
+                        <li>увлечен работой и новыми технологиями</li>
                     </ul>
-                    <ul>Corel:
-                        <li>перерисовка контура и исправлений макетов заказчика для дальнейшего 
-                        запуска в производство
-                        </li>
+                </div>
+            </div>
+            <div class="fon f6">
+                <div class="Hobbies">
+                    <h2>О себе:</h2>
+                    <ul>
+                        <li>увлекаюсь авиацией</li>
+                        <li>велоспортом и вело походами</li>
+                        <li>горнолыжным спортом</li>
+                        <li>люблю работать руками особенно по дереву</li>
+                        <li>люблю животных особенно кошек</li>
                     </ul>
-                    <li>2012-2013 Аэропорт Киев, работа водителем механиком на спецтехнике, loud master</li>
-                    <li>2009-2012 ТОВ Экостатус, работа системным администратором.</li>
-                  </ul>
-                  <li>уверенный в себе и адекватно оцениваю свои способности</li>
-                  <li>имею позитивный настрой</li>
-                  <li>хороший опыт работы клиентами</li>
-                  <li>увлечен работой и новыми технологиями</li>
-                </ul>
-			</div>			
-		</div>
-		<div class="fon6">
-			<div class="Hobbies">
-				<h3>О себе:</h3>
-				<div>увлекаюсь авиацией</div>
-				<div>велоспортом и вело походами</div>
-				<div>горнолыжным спортом</div>
-				<div>люблю работать руками особенно по дереву</div>
-				<div>люблю животных особенно кошек</div>
-			</div>
-		</div>
-	</main>
-	<footer></footer>
+                </div>
+            </div>
+        </main>
+    </div>
+</section>
+<footer></footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 </html>

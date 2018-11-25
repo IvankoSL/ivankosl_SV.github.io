@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(#fefefe,#575965 );
+}
+.header {
+    position: fixed;
+    width: 250px;
+
+}
+.fon{
+    background: #fefefe;
+    /*border: 2px solid #2e2528;*/
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: .7rem;
+    box-shadow: #696769 0 5px 10px 2px;
+}
+
+.img-circle{
+    border-radius: 50%;
+    box-shadow: #696769 0 0 5px;
+}
+
+
+h2{
+    border-bottom:2px solid #f5cc5a;
+}
+.social{
+   font-size: 4rem ;
+}
+@media (max-width: 768px) {
+   .header{
+       position: static;
+       width: 100%;
+   }
+}
+@media (max-width: 576px) {
+    .header{
+        margin: 15px;
+    }
+}
